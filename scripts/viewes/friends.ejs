@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Friends</title>
+  <link rel="stylesheet" href="/style/main.css">
+</head>
+<body>
+  <div id="friends-container">
+    <h2>Friends</h2>
+    <ul id="friends-list">
+      <% friends.forEach(friend => { %>
+        <li><%= friend.username %></li> 
+      <% }); %>
+    </ul>
+  </div>
+  <script src="/scripts/friends.js"></script>
+</body>
+</html>

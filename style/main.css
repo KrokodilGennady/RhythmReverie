@@ -26,6 +26,70 @@ html, body {
   overflow-x: hidden;
 }
 
+/* Basic styles for body and containers */
+body {
+  font-family: 'Exo 2', sans-serif; /* Using the Exo 2 font from your project */
+  background-color: #191919;
+  color: #eee;
+}
+
+#login-container, #leaderboard-container, #friends-container {
+  width: 300px;
+  margin: 50px auto; /* Added margin for spacing */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Added rounded corners */
+  background-color: #292929; /* Dark background */
+}
+
+/* Form styles */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #b63258; /* Using a color from your project */
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Leaderboard table styles */
+#leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#leaderboard-table th, #leaderboard-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#leaderboard-table th {
+  background-color: #b63258; /* Using a color from your project */
+  color: white;
+}
+
+/* Friends list styles */
+#friends-list {
+  list-style: none;
+  padding: 0;
+}
+
+#friends-list li {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
 canvas {
   display: block;
 }
